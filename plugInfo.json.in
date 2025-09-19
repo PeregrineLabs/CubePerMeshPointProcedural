@@ -1,0 +1,22 @@
+{
+    "Plugins": [
+        {
+            "LibraryPath": "./libCubePerMeshPointProcedural.dylib", 
+            "Name": "CubePerMeshPointProcedural", 
+            "ResourcePath": ".", 
+            "Root": "..", 
+            "Type": "library",
+            "Info": {
+                "Types": {
+                    "CubePerMeshPointProceduralPlugin": {
+                        "bases": [
+                            "HdGpGenerativeProceduralPlugin"
+                        ], 
+                        "displayName": "CubePerMeshPoint",
+                        "priority" : 0
+                    }
+                }
+            }
+        }
+    ]
+}
