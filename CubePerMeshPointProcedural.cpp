@@ -218,6 +218,20 @@ public:
         return result;
     }
 
+    bool AsyncBegin(bool asyncEnabled)
+    {
+        return false;
+    }
+
+    HdGpGenerativeProcedural::AsyncState
+    AsyncUpdate(
+    const ChildPrimTypeMap &previousResult,
+    ChildPrimTypeMap *outputPrimTypes,
+    HdSceneIndexObserver::DirtiedPrimEntries *outputDirtiedPrims)
+{
+    return Finished;
+}
+
 private:
 
     /// private types /////////////////////////////////////////////////////////
