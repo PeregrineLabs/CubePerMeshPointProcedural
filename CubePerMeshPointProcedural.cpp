@@ -447,7 +447,6 @@ public:
     HdGpGenerativeProcedural *Construct(
         const SdfPath &proceduralPrimPath) override
     {
-        std::cerr<<"Constructing!"<<std::endl;
         return new _CubePerMeshPointProcedural(proceduralPrimPath);
     }
 };
