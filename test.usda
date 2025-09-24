@@ -37,6 +37,7 @@ def Scope "World"
         prepend apiSchemes = ["HydraGenerativeProceduralAPI"]
     )
     {
+        token proceduralSystem = "hydraGenerativeProcedural"
         token primvars:hdGp:proceduralType = "CubePerMeshPoint"
         rel primvars:sourceMeshPath = </World/myMesh2>
         float primvars:scale = 2
